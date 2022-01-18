@@ -33,7 +33,7 @@ $partita = [
     <h2>Partite Giocate</h2>
     <?php
     for($i = 0; $i < count($partita); $i++){
-    echo "<div>"{$partita[$i]["sqaudraCasa"]} . "-" {$partita[$i]["sqaudraOspite"]} "</div>"
+    echo "<div> {$partita[$i]["squadraCasa"]} - {$partita[$i]["squadraOspite"]} | {$partita[$i]["puntiCasa"]} - {$partita[$i]["puntiOspite"]}</div>";
 }
     ?>
 
